@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Devang Bharti
+% Based off of: https://github.com/Horseman-droid/Resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Devang Bharti} \\ \vspace{1pt}
+    \small +91 8303437325 $|$ \href{mailto:devang.bharti02@gmail.com}{\underline{devang.bharti02@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{https://www.linkedin.com/in/devang-bharti-a01603197/}} $|$
+    \href{https://github.com/...}{\underline{https://github.com/Horseman-droid}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information technology Allahabad}{Prayagraj, India}
+      {Bachelor of Technology in Information Technology- Business Informatics GPA 7.73}{july 2019 -- june 2023}
+    \resumeSubheading
+      {JNV Farrukhabad}{Uttar Pradesh, India}
+      {All India senior School Examination 86.6 Percentage}{April. 2016 -- March 2018}
+      \resumeSubheading
+      {JNV Farrukhabad}{Uttar Pradesh, India}
+      {All India secondary School Examination 9.4 CGPA}{April. 2015 -- March 2016}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Languages and Technologies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Prgramming Languages}{: Java, Python, C/C++, SQL,HTML/CSS} \\
+     \textbf{Front-end Technology-HTML ,CSS,JavaScript}\\
+     \textbf{Back-end technology-PHP,Node.js(basic)}\\
+     \textbf{Operating System- Windows,linux}\\
+     \textbf{Databases- Mysql}\\
+     \textbf{Frameworks and Tools}{: React, Node.js,} \\
+     \textbf{Developer Tools}{: GIT,Github,XAMMP,VS Code, Visual Studio, Eclipse} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Virtual Classroom} $|$ \emph{PHP,Apache, MySQL,Bootstrap,Javascript}}{April 2021 -- May 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack E-classroom web application having Admin, student and faculty as login}
+            \resumeItem{Front-end Implemented using html5,bootstrap and javascript}
+            \resumeItem{Backend job done using php and Mysql}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Emergency Management system for unauthorized access of building} $|$ \emph{Dart,firestore}}{April 2021 -- May 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a cross platform mobile application for managing intruder at check/gate point}
+            \resumeItem{front-end implemented using Dart}
+            \resumeItem{back-end stuff done using firestore and firebase}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Ticket Booking System} $|$ \emph{Python,}}{June 2020 -- July 2020}
+          \resumeItemListStart
+            \resumeItem{Developed A Small software for train booking system}
+            \resumeItem{Written in python}
+            \resumeItem{Retreived and insert user's data using json files }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Certification}
+\resumeItemListStart
+\resumeSubheading
+{Python 3 basic }{Chennai}
+{BITA IT Academy}{2019}
+\resumeItemListEnd
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Super 30 Scholor}{Patna}
+      {One year scholorship for jee preparation}{2018}
+    \resumeSubheading
+      {Governor award}{Uttar Pradesh India}
+      {Awarded with governor award in Scout}{2015}
+  \resumeSubHeadingListEnd
+  
+
+\section{Position of Responsbility}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Executive}{Prayagraj, India}
+      {Asmita'21 (Sports Fest of college)}{January 2021 -- Present}
+    \resumeSubheading
+      {Member }{Prayagraj, India}
+      {Sports society IIITA}{June 2020 -- Present}
+     \resumeSubheading
+      {Student Academic Incharge}{Uttar Pradesh, India}
+      {JNV farrukhabad}{August 2016 -- July 2017}
+  \resumeSubHeadingListEnd
+
+
+  
+
+
+%-------------------------------------------
+\end{document}
